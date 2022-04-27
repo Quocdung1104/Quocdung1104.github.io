@@ -7,6 +7,7 @@ header{
     background-image:url("https://xuconcept.com/wp-content/uploads/2021/11/tai-hinh-nen-mien-phi.jpg");
     height: 100vh;
     background-size: cover;
+    background-position: center;
 }
 
 ul{
