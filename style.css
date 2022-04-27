@@ -45,3 +45,16 @@ ul li a{
     max-width: 1200px;
     margin: auto;
 }
+
+.title{
+    position: absolute;
+    top: 50%;
+    :left 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: rgb(2, 201, 5);
+    font-size: 70px;
+    
+}   
