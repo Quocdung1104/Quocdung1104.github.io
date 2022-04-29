@@ -24,8 +24,8 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #fff
-    padding: 3px 50px;
-    border: 1px solid transparent;
+    padding: 3px 70px;
+    border: 10px solid transparent;
     transform: 1s ease; 
 }
 
