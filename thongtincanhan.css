@@ -55,11 +55,47 @@
     left: 0;
     background: #000;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.5;
 }
 .banner-bth a:hover span{
     width: 100%;
 }
 .banner-bth a:hover{
-    color:#000;
+    color:rgb(0, 0, 0);
 }
+
+#sideNav{
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #009688;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#menuBth{
+    width: 50px;
+    height: 50px;
+    background: #009688;
+    text-align: center;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBth img{
+    width: 20px;
+    margin-top: 15px;
+}
+
