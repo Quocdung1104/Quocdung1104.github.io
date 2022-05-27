@@ -55,7 +55,7 @@
     left: 0;
     background: #000;
     z-index: -1;
-    transition: 0.5;
+    transition: 0.5s;
 }
 .banner-bth a:hover span{
     width: 100%;
