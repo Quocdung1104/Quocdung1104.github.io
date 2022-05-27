@@ -21,5 +21,37 @@
         </div>
 
     </section>
+    <div id="sideNav">
+        <nav>
+        <ul>
+            <li><a href="#"></a>HOME</a></li>
+            <li><a href="#"></a>Cá Nhân</a></li>
+            <li><a href="#"></a>Gia Đình</a></li>
+            <li><a href="#"></a>Cuộc Sống</a></li>
+            <li><a href="#"></a>Kỹ Năng</a></li>
+        </ul>    
+        </nav>
+    </div>
+    <div id="menuBth">
+        <img src="https://png.pngtree.com/png-vector/20190129/ourlarge/pngtree-menu-vector-icon-png-image_355811.jpg" id="menu">
+
+    </div>
+    <script>
+        var manuBth = document.getElementById("menuBth")
+        var sideNav = document.getElementById("sideNav")
+        var manuBth = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBth.onclick = function(){
+            if(sideNav.style.right=="-250px"){
+                sideNav.style.right = "0";
+            
+            }
+            else{
+                sideNav.style.right=="-250px";
+            }
+        }
+    </script>
 </body>
 </html>
