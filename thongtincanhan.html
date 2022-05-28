@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="thongtincanhan.css">
     <title>Thông Tin Cá Nhân</title>
 </head>
@@ -14,17 +14,17 @@
         <div class="banner-text">
             <h1>Nguyễn Quốc Dũng</h1>
             <p>Thông Tin cá Nhân</p>
-            <div class="banner--bth">
-                <a href="#">Cuộc Sống</a>
-                <a href="#">Gia Đình</a>
+            <div class="banner-btn">
+                <a href="#"><span></span>Cuộc Sống</a>
+                <a href="#"><span></span>Gia Đình</a>
             </div>
         </div>
 
     </section>
+
     <div id="sideNav">
         <nav>
         <ul>
-            <li><a href="#"></a>HOME</a></li>
             <li><a href="#"></a>Cá Nhân</a></li>
             <li><a href="#"></a>Gia Đình</a></li>
             <li><a href="#"></a>Cuộc Sống</a></li>
@@ -32,24 +32,32 @@
         </ul>    
         </nav>
     </div>
-    <div id="menuBth">
+    <div id="manuBtn">
         <img src="https://png.pngtree.com/png-vector/20190129/ourlarge/pngtree-menu-vector-icon-png-image_355811.jpg" id="menu">
-
     </div>
+
+    <!--Features-->
+    <section id="feature">
+    <div class="title-text">
+    <p>Thông Tin</p>
+    <h1>Xin CHÀO</h1>
+    </div>
+    </section>
+
     <script>
-        var menuBth = document.getElementById("menuBth")
-        var sideNav = document.getElementById("sideNav")
-        var menu = document.getElementById("menu")
+    var menuBth = document.getElementById("menuBth")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
 
-        sideNav.style.right = "-250px";
+    sideNav.style.right = "-250px";
 
-        menuBth.onclick = function(){
-            if(sideNav.style.right=="-250px"){
-                sideNav.style.right = "0";
-                menu.src = "https://w1.pngwing.com/pngs/394/232/png-transparent-menu-icon-icon-design-hamburger-button-house-css-sprites-user-interface-home-page-triangle.png";
-            }
-            else{
-                sideNav.style.right=="-250px";
+    menuBth.onclick = function(){
+        if(sideNav.style.right=="-250px"){
+            sideNav.style.right = "0";
+            menu.src = "https://w1.pngwing.com/pngs/394/232/png-transparent-menu-icon-icon-design-hamburger-button-house-css-sprites-user-interface-home-page-triangle.png";
+        }
+        else{
+                sideNav.style.right ="-250px";
                 menu.src = "https://w1.pngwing.com/pngs/394/232/png-transparent-menu-icon-icon-design-hamburger-button-house-css-sprites-user-interface-home-page-triangle.png";
             }
         }
