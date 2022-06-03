@@ -36,14 +36,14 @@
     margin: 100px auto 0;
 }
 .banner-btn a{
-    width:110px;
-    text-decoration: none;
+    width: 100px;
+    text-decoration: initial;
     display: inline-block;
     margin: 10 110px;
-    padding: 50px 0;
+    padding: 20px 0;
     color: rgb(red);
-    border: .05px solid #fff;
-    position: relative;
+    border: 0.01px solid #000000;
+    position: inherit;
     z-index: 1;
     transition: color 0.5s;
 }
