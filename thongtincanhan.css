@@ -1,143 +1,77 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: century Gothic ;
 }
-#banner{
-    background-image: url("https://o.rada.vn/data/image/2021/11/26/hinh-nen-may-tinh-dep-1.jpg");
+
+header{
+    background-image: url(http://3.bp.blogspot.com/-PGGhwee7Cgw/Vb_PaHxjyiI/AAAAAAAAHBs/bwwmpwZdJjQ/w1200-h630-p-k-no-nu/hinh-nen-may-tinh-anh-sang-trong-dem-mua-dong2.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    height: 100%;
 }
 
-.logo{
-    width: 140px;
-    position: absolute;
-    top: 4%;
-    left: 10%;
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
 }
 
-.banner-text{
-    text-align:center;
-    color: #blue;
-    padding-top: 120px;
-}
-
-.banner-text h1{
-    font-size:130px;
-    font-family: 'kaushan script', cursive;
-    color: white
-}
-
-.banner-text p{
-    font-size: 20px;
-    font-style: italic;
-}
-.banner-bth{
-    margin: 100px auto 0;
-}
-.banner-btn a{
-    width: 100px;
-    text-decoration: initial;
+ul li{
     display: inline-block;
-    margin: 10 110px;
-    padding: 20px 0;
-    color: rgb(red);
-    border: 0.01px solid #000000;
-    position: inherit;
-    z-index: 1;
-    transition: color 0.5s;
-}
-.banner-btn a span{
-    width: 50px;
-    height: 110px;
-    position: absolute;
-    top:0;
-    left: 0;
-    background: #000;
-    z-index: -1;
-    transition: 0.5s;
-}
-.banner-btn a:hover span{
-    width: 110%;
-}
-.banner-btn a:hover{
-    color:rgb(221, 241, 5);
 }
 
-#sideNav{
-    width: 120px;
-    height: 100vh;
-    position: fixed;
-    right: -250px;
-    top: 0;
-    background: #fff;
-    z-index: 2;
-}
-nav ul li{
-    list-style: none;
-    margin: 50px 20px;
-}
-nav ul li a{
+ul li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
 }
-#manuBtn{
-    width: 50px;
-    height: 50px;
-    background:#f2ea07;
-    text-align: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 3px;
-    z-index: 3;
-    cursor: pointer;
+ul li a:hover{
+    background-color: #fff;
+    color:#000
 }
-#manuBtn img{
-    width: 20px;
-    margin-top: 15px;
-}
-@media screen and (max-width: 770px){
-    .banner-text h1{
-        font-size: 44px;
-    }
-    .banner-bth a{
-        display: block;
-        margin: 20px auto;
-    }
-}
-/*--feature--*/
 
-#feature{
-    width: 100%;
-    padding: 70px 0;
+ul li.active a{
+    background-color: #fff;
+    color:#000
 }
-.title-text{
-    text-align: center;
-    padding-bottom: 70px;
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
 }
-.title-text p{
-    margin: auto;
-    font-size: 20px;
-    color: #f2ea07;
-    font-weight: bold;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
+
+.main{
+    max-width: 1200px;
+    margin:auto;
 }
-.title-text p::after{
-    content: '';
-    width: 50px;
-    height: 35px;
-    background: linear-gradient(#019587,#fff);
+
+.title{
     position: absolute;
-    top: -20;
-    left: 0;
-    z-index: -1;
-    transform: rotate(10deg);
-    border-top-left-radius: 35px;
-    border-bottom-right-radius: 35px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
-.title-text h1{
-    font-size: 50px;
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease ;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
 }
