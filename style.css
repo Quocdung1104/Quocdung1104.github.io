@@ -101,7 +101,7 @@ nav a li:hover::before{
 .intro{
   color: var(--third-color);
   position: absolute;
-  left: 40rem;
+  left: 15rem;
   top: 50%;
   width: 40%;
 }
