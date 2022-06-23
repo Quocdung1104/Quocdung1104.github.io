@@ -40,6 +40,8 @@ nav{
 .logo{
   width: 100px;
   cursor: pointer;
+  float: left;
+  height: auto;
 }
 nav ul li{
   display: inline-block;
