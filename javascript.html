@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            text-align: center;
+            
+        }
+    
+        body{
+            background:url(https://1.bp.blogspot.com/-hN0NCoAmEDY/X8z1OcRjXmI/AAAAAAAAlc0/hHqbHzqOPhIABiVomzpYacPeEufV816QQCNcBGAsYHQ/s0/hinh-nen-may-cuc-dep.jpg);
+    
+        }
+        #demo {
+            background: rgb(54, 155, 158);
+            height: 250px;
+            width: 300px;
+            font-size: 25px;
+            position:absolute; 
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 624px;
+            
+        }
+        p{
+            font-size: 30px;
+            color: rgb(204, 204, 7);
+
+        
+        }
+        button{
+            background: rgb(44, 211, 44);
+            border-radius: 20px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p>Đoạn mã javacript được đặt trong head</p>              
+    <p id="demo"> Hello </p>
+    <button type="button" onclick="hienthi()">Hiển Thị</button>
+    <button type="button" onclick="hienthi2()">Hiển Thị 2</button>
+    <button type="button" onclick="hienthi3()">Hiển Thị 3</button>
+    <script>
+        function hienthi() {
+                document.getElementById("demo").innerHTML = "Chào mọi người";
+              }
+             function hienthi2() {
+                document.getElementById("demo").innerHTML = "Tôi tên Nguyễn Quốc Dũng";
+              }
+            function hienthi3() {
+                document.getElementById("demo").innerHTML = "Lớp CNTT15A";
+              }
+    </script>
+</body>
+</html>
