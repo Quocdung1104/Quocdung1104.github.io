@@ -177,11 +177,6 @@ nav a li:hover::before{
   justify-items: center;
   padding: 2rem 0;
 }
-.about-sec .imgbox{
-  position: relative;
-  height: 500px;
-  width: 40%;
-}
 .about-sec .imgbox img{
   width: 100%;
   height: 100%;
