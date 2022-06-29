@@ -218,8 +218,7 @@ nav a li:hover::before{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  top: -rem;
-  right: -2rem;
+  right: 18rem;
   border-radius: 50%;
 }
 .about-sec .aboutIntro p{
