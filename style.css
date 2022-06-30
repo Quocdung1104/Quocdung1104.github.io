@@ -286,12 +286,12 @@ nav a li:hover::before{
     width: 100vw;
     padding: 20px 0;
     text-align: center;
-    color: white;
 }
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    color: white;
 }
 .footer-bottom span{
     text-transform: uppercase;
