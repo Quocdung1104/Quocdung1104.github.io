@@ -286,6 +286,7 @@ nav a li:hover::before{
     width: 100vw;
     padding: 20px 0;
     text-align: center;
+    color: white;
 }
 .footer-bottom p{
     font-size: 14px;
