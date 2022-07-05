@@ -20,10 +20,6 @@
     display: flex;
     align-items: center;
 }
-.logo{
-    width: 70px;
-    cursor: pointer;
-}
 .row{
     display: flex;
     height: 88%;
