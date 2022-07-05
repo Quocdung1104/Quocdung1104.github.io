@@ -24,11 +24,6 @@
     width: 70px;
     cursor: pointer;
 }
-.menu-icon{
-    width: 30px;
-    cursor: pointer;
-    margin-left: 40px;
-}
 .row{
     display: flex;
     height: 88%;
