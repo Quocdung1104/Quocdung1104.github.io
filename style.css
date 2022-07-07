@@ -6,7 +6,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(image/QD1\ \(15\).jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.15752-9/291483586_571173414392712_3965228772593645752_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=uicfHE6lvjgAX9qPLy6&_nc_ht=scontent.fsgn2-6.fna&oh=03_AVJ4QeARv3pHkL8428vaDYoJ0T6e_9aukmk1hqrtRstKnw&oe=62ECF704);
   background-position: center;
   background-size:cover;
   position:relative;
