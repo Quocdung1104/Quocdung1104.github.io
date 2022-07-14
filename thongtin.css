@@ -17,10 +17,9 @@ header {
   color: white;
 }
 article {
-  float: left;
   padding: 80px;
   width: 50%;
-  background-color: #f1f1f1;
+  text-align:center;
   height: 300px; /* only for demonstration, should be removed */
 }
 
